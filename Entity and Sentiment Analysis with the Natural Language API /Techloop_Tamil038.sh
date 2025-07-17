@@ -36,7 +36,7 @@ EOF_CP
 
 gcloud compute scp techcps.sh linux-instance:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
 
-gcloud compute ssh linux-instance --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/techcps.sh"
+gcloud compute ssh linux-instance --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/Techloop_Tamil038.sh"
 
 
 echo 
