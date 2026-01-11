@@ -138,5 +138,3 @@ All trademarks belong to their respective owners.
 
 Created & maintained by **Techloop Tamil**  
 If this extension helps you, consider subscribing or buying a coffee ☕
-```
-
