@@ -1,6 +1,6 @@
 
 
-## ☁️ Configure Cloud Buckets with gsutil for Load Balancing & Fault Tolerance | [GSP073](https://www.cloudskillsboost.google/games/6058/labs/38571)
+## ☁️ Configure Cloud Buckets with gsutil for Load Balancing & Fault Tolerance 
 
 ### 🔗 **Solution Video:** [Watch Here](https://youtu.be/bq7wRFhqrEg?si=LcGDG_33bEche9ua)
 
