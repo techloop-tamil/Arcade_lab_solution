@@ -10,25 +10,12 @@
 This script and guide are provided for educational purposes to help you understand the lab process. Before using the script, I encourage you to open and review it to understand each step. Please make sure you follow Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.
 
 
-## Step1: Copy & Paste in Consol with Bucket name
+## Copy & Paste in Consol with Bucket name
 ```bash
-PROJECT=$(gcloud config get-value project)
-BUCKET= // Enter Bucket name here
+
+PROJECT=$(gcloud config get-value project) && BUCKET="qwiklabs-gcp-03-479c3001b85e-bucket" && gsutil setmeta -h "Content-Type:text/html" gs://${BUCKET}/index.html && gsutil setmeta -h "Content-Type:text/css" gs://${BUCKET}/style.css && gsutil setmeta -h "Content-Type:image/jpeg" gs://${BUCKET}/logo.jpg && gsutil web set -m index.html -e 404.html gs://${BUCKET} && gsutil iam ch allUsers:objectViewer gs://${BUCKET}
 ```
-## Step2: Copy & Paste
-```
-gsutil setmeta -h "Content-Type:text/html" gs://${BUCKET}/index.html
-gsutil setmeta -h "Content-Type:text/css" gs://${BUCKET}/style.css
-gsutil setmeta -h "Content-Type:image/jpeg" gs://${BUCKET}/logo.jpg
-```
-## Step3: Copy & Paste
-```
-gsutil web set -m index.html -e 404.html gs://${BUCKET}
-```
-## Step4: Copy & Paste
-```
-gsutil iam ch allUsers:objectViewer gs://${BUCKET}
-```
+
 
 - This command downloads the setup script from GitHub. The script will help configure the environment and perform necessary setup steps.
 
