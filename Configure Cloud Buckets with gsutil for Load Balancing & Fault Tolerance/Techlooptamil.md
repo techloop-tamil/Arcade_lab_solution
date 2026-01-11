@@ -13,23 +13,16 @@ This script and guide are provided for educational purposes to help you understa
 ## Step1: Copy & Paste in Consol with Bucket name
 ```bash
 PROJECT=$(gcloud config get-value project)
-BUCKET=qwiklabs-gcp-03-061714b645d0-bucket
-
-
-
+BUCKET= // Enter Bucket name here
 ```
 ## Step2: Copy & Paste
 ```
-
 gsutil setmeta -h "Content-Type:text/html" gs://${BUCKET}/index.html
 gsutil setmeta -h "Content-Type:text/css" gs://${BUCKET}/style.css
 gsutil setmeta -h "Content-Type:image/jpeg" gs://${BUCKET}/logo.jpg
-
 ```
 ## Step3: Copy & Paste
 ```
-
-
 gsutil web set -m index.html -e 404.html gs://${BUCKET}
 ```
 ## Step4: Copy & Paste
