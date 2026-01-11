@@ -132,7 +132,6 @@ Subscribe for:
 This project is for **educational purposes**.  
 All trademarks belong to their respective owners.
 
----
 
 ## 🙌 Credits
 
