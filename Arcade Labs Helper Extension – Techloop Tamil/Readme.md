@@ -91,7 +91,7 @@ Support the creator using UPI:
 Payment page:
 ```
 
-[https://adhi2k.github.io/Extention_Videomap/upi.html](https://adhi2k.github.io/Extention_Videomap/upi.html)
+https://adhi2k.github.io/Extention_Videomap/upi.html
 
 ```
 
