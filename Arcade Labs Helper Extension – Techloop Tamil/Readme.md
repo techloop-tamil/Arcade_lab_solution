@@ -78,20 +78,6 @@ chrome://extensions
 
 ---
 
-## 🧠 How It Works
-
-- Lab titles are detected using a `MutationObserver`
-- Video links are fetched from:
-```
-
-[https://raw.githubusercontent.com/adhi2k/Extention_Videomap/main/videoMap.json](https://raw.githubusercontent.com/adhi2k/Extention_Videomap/main/videoMap.json)
-
-```
-- If a video exists → user can click **Watch Video**
-- If not → shows **Coming Soon** message
-- Score checker toggle is injected directly into the lab UI
-
----
 
 ## ☕ Buy Me a Coffee (UPI)
 
