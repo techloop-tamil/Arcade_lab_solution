@@ -89,11 +89,10 @@ Support the creator using UPI:
 - Works on desktop & mobile
 
 Payment page:
-```
+
 
 https://adhi2k.github.io/Extention_Videomap/upi.html
 
-```
 
 ---
 
