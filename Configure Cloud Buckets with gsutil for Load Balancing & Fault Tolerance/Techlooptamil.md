@@ -1,6 +1,6 @@
 
 
-## ☁️ Configure Cloud Buckets with gsutil for Load Balancing & Fault Tolerance 
+## ☁️ Manage Rendering for Cloud Storage Website Hosting
 
 ### 🔗 **Solution Video:** [Watch Here](https://youtu.be/bq7wRFhqrEg?si=LcGDG_33bEche9ua)
 
