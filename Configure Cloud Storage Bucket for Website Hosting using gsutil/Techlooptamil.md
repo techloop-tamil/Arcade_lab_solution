@@ -1,0 +1,51 @@
+## ☁️ [Cloud IAM: Qwik Start](https://www.skills.google/games/6987/labs/43424)
+
+### 🔗 **Solution Video:** [Watch Here](https://youtu.be/bq7wRFhqrEg?si=LcGDG_33bEche9ua)
+
+---
+
+## 💀 **Disclaimer:**
+This script and guide are provided for educational purposes to help you understand the lab process. Before using the script, I encourage you to open and review it to understand each step. Please make sure you follow Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.
+
+
+## 🌐 **Quick Start Guide:**
+
+**Launch Cloud Shell:**
+Start your Google CloudShell session by [clicking here](https://console.cloud.google.com/home/dashboard?project=&pli=1&cloudshell=true).
+
+
+```bash
+export BUCKET=
+```
+```bash
+gsutil web set -m index.html -e error.html gs://$BUCKET
+gsutil uniformbucketlevelaccess set off gs://$BUCKET
+gsutil defacl set public-read gs://$BUCKET
+gsutil acl set -a public-read gs://$BUCKET/index.html
+gsutil acl set -a public-read gs://$BUCKET/error.html
+gsutil acl set -a public-read gs://$BUCKET/style.css
+gsutil acl set -a public-read gs://$BUCKET/logo.jpg
+```
+- This command downloads the setup script from GitHub. The script will help configure the environment and perform necessary setup steps.
+
+
+---
+
+---
+
+## 🎉 **Lab Completed!**
+
+You've successfully completed the lab! Great job on working through the process.
+
+### 🌟 **Stay Connected!**
+
+- 🗣 **Participate in the [Discussion Group](https://chat.whatsapp.com/H6EAk2nwAn3HOvEY82JGky)** to engage with other learners.
+- 🐦 **Follow us on [Youtube](https://www.youtube.com/@Techloop_Tamil)** for the latest updates.
+
+
+---
+---
+
+**Keep up the great work and continue your learning journey!**
+
+#[Techloop Tamil](https://www.youtube.com/@Techloop_Tamil) - Don't Forget to Subscribe!
