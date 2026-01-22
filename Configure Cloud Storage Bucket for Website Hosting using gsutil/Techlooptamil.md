@@ -31,7 +31,6 @@ gsutil acl set -a public-read gs://$BUCKET/logo.jpg
 
 ---
 
----
 
 ## 🎉 **Lab Completed!**
 
@@ -43,7 +42,6 @@ You've successfully completed the lab! Great job on working through the process.
 - 🐦 **Follow us on [Youtube](https://www.youtube.com/@Techloop_Tamil)** for the latest updates.
 
 
----
 ---
 
 **Keep up the great work and continue your learning journey!**
