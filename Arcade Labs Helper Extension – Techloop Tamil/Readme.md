@@ -6,6 +6,7 @@ A powerful **Chrome Extension** built to enhance the **Google Cloud Arcade / Clo
 - 📊 **Lab Score Checker (Leaderboard ↔ Assessment toggle)**
 - 🎥 **Lab Solution Video Finder**
 - 🔔 **YouTube Subscribe Support**
+- 🔗 **Github Link**
 - ☕ **Buy Me a Coffee (UPI QR support)**
 - 🌐 **Custom Popup Dashboard (GitHub Pages)**
 
