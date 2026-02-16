@@ -4,8 +4,8 @@ echo "${ORANGE_TEXT}${BOLD_TEXT}      Techloop Tamil SUBSCRIBE NOW & LIKE THE VI
 echo "${ORANGE_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
 echo
 
-read -p "${YELLOW_TEXT}${BOLD_TEXT}Enter REGION_1 (example: us-east1): ${RESET_FORMAT}" REGION_1
-read -p "${YELLOW_TEXT}${BOLD_TEXT}Enter REGION_2 (example: us-central1): ${RESET_FORMAT}" REGION
+
+
 
 PROJECT_ID=$(gcloud config get-value project)
 BUCKET_NAME="$PROJECT_ID"
